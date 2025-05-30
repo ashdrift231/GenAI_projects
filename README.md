@@ -1,5 +1,3 @@
-# GenAI_projects
-
 # Langchain and Hugging Face Integration Example
 
 This notebook demonstrates how to integrate Langchain with Hugging Face models, utilizing both the Hugging Face Inference API (via `HuggingFaceEndpoint`) and local model loading with quantization (via `HuggingFacePipeline`).
