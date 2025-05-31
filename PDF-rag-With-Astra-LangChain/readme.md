@@ -4,8 +4,9 @@
 
 The goal of this project is to create a RAG system that can answer questions based on the content of a specific PDF document/documents. It leverages vector embeddings, a vector database, and a large language model to achieve this.
 
-## Features
+![{58203D2A-D274-4D94-9E91-30891DA167D8}](https://github.com/user-attachments/assets/729c909f-859d-4f0e-88ca-858bf28b97c5)
 
+## Features
 *   **PDF Processing:** Loads and processes a PDF document using `PyPDFLoader` and `RecursiveCharacterTextSplitter`.
 *   **Vector Embeddings:** Generates vector embeddings for document chunks using `NVIDIAEmbeddings`.
 *   **Vector Database:** Stores and retrieves document embeddings using `AstraDBVectorStore`.
