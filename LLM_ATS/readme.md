@@ -43,6 +43,10 @@ This project is a Streamlit application that acts as a Smart Application Trackin
     * It processes the input when the submit button is clicked, calls the AI model, and displays the response.
 * **Running and Exposing the App:** The third cell runs the Streamlit app using `streamlit run`, redirects output to `logs.txt`, and uses `npx localtunnel` to expose the app on port 8501. It also displays the public IP address.
 
+## Results
+![image](https://github.com/user-attachments/assets/64ac2503-a52b-408b-8c1b-e552fc0c8087)
+
+
 ## Contributing
 
 This is a basic implementation. Feel free to fork the repository and contribute enhancements, bug fixes, or new features.
