@@ -44,7 +44,8 @@ This project is a Streamlit application that acts as a Smart Application Trackin
 * **Running and Exposing the App:** The third cell runs the Streamlit app using `streamlit run`, redirects output to `logs.txt`, and uses `npx localtunnel` to expose the app on port 8501. It also displays the public IP address.
 
 ## Results
-![image](https://github.com/user-attachments/assets/64ac2503-a52b-408b-8c1b-e552fc0c8087)
+![{D149694D-228F-4B27-A437-F67910B9A05E}](https://github.com/user-attachments/assets/3e77a9e0-e40c-427f-9fd6-2b8f5f1461f3)
+
 
 
 ## Contributing
