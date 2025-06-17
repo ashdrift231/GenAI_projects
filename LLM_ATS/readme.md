@@ -19,7 +19,7 @@ This project is a Streamlit application that acts as a Smart Application Trackin
 
 1. **Open the Notebook:** Open the provided Google Colab notebook.
 2. **Install Dependencies:** Run the first code cell to install the required Python libraries and localtunnel.
-3. **Add Your NVIDIA API Key:** In the second code cell (the one with `%%writefile app.py`), replace `"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"` with your actual NVIDIA API key. It is recommended to use environment variables for better security in a production environment.
+3. **Add Your NVIDIA API Key:** In the second code cell (the one with `%%writefile app.py`),Enter your actual NVIDIA API key. It is recommended to use environment variables for better security in a production environment.
 4. **Write the Streamlit App:** Run the second code cell to create the `app.py` file with the Streamlit application code.
 5. **Run the App:** Execute the third code cell. This will:
     * Start the Streamlit application.
