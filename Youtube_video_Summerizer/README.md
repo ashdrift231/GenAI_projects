@@ -41,7 +41,7 @@ pathlib
 -   **Summary Generation:** A function `generate_summary` to use the Gemini model for summarization.
 -   **Display Results:** Shows the thumbnail and the generated summary.
 
-## Video Summary of the Code
+## Results
 
 ![yt1](https://github.com/user-attachments/assets/f395f85f-575c-4dad-90e3-3944f33b9785)
 ![yt2](https://github.com/user-attachments/assets/7140dcfe-8e43-4057-ab24-4f48aa4ea8ef)
