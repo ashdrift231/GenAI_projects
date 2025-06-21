@@ -21,12 +21,12 @@ This project provides a straightforward, end-to-end pipeline for building a **Re
 
 ## 📁 Project Structure
 
-RAG_with_Llama2_using_llamaIndex/
+`RAG_with_Llama2_using_llamaIndex/
 ├── data/ # Folder containing source documents
 ├── RAG_with_Llama2.ipynb # Main notebook for running the pipeline
 ├── rag.py # Optional script for CLI usage (if implemented)
 ├── requirements.txt # Python dependencies
-└── README.md # Project documentation (you’re here!)
+└── README.md # Project documentation (you’re here!)`
 
 yaml
 Copy
