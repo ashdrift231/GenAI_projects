@@ -5,16 +5,17 @@ This notebook provides a simple Streamlit application to summarize YouTube video
 ## Features
 
 - Extracts the transcript of a given YouTube video.
-- Utilizes the Gemini Pro model to generate a concise summary of the video transcript.
+- Utilizes the Gemini 2.0 Flash model to generate a concise summary of the video transcript.
 - Displays the video thumbnail.
+- Provides video summary.
 
 ## Setup
 
-1.  **Install Dependencies:** Run the cell containing `!pip install -r /content/requirements.txt` to install the required libraries (`streamlit`, `google-generativeai`, `youtube-transcript-api`, `python-dotenv`).
+1.  **Install Dependencies:** Run the cell containing `!pip install -r /content/requirements.txt` to install the required libraries (`streamlit`, `google-generativeai`, `youtube-transcript-api`).
 2.  **Configure API Key:**
-    *   Replace `"your_api_key"` in the `genai.configure(api_key="your_api_key")` cell with your actual Google Gemini API key.
-    *   Alternatively, you can use environment variables by uncommenting the `from dotenv import load_dotenv` and `load_dotenv()` lines and setting your API key in a `.env` file in the Colab environment.
-3.  **Run the Streamlit App:** Execute the remaining cells to run the Streamlit application within Colab. A public URL will be provided to access the app.
+    *   Replace `"your_api_key"` in the `genai.configure(api_key="your_api_key")` cell with your actual Google Gemini API key. You can generate your Google Api key from [google ai studio.](https://aistudio.google.com/)
+    *   Alternatively, you can use environment variables by uncommenting the `from dotenv import load_dotenv` and `load_dotenv()` lines and setting your API key in a `.env` file in the VScode environment.
+3.  **Run the Streamlit App:** Execute the remaining cells to run the Streamlit application within Colab. A public URL will be provided to access the app along with port address (password).
 
 ## Usage
 
@@ -39,3 +40,9 @@ pathlib
 -   **Transcript Extraction:** A function `extract_transcript` to fetch the video transcript.
 -   **Summary Generation:** A function `generate_summary` to use the Gemini model for summarization.
 -   **Display Results:** Shows the thumbnail and the generated summary.
+
+## Video Summary of the Code
+
+![yt1](https://github.com/user-attachments/assets/f395f85f-575c-4dad-90e3-3944f33b9785)
+![yt2](https://github.com/user-attachments/assets/7140dcfe-8e43-4057-ab24-4f48aa4ea8ef)
+
