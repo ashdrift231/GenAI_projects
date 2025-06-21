@@ -1,6 +1,11 @@
-# 🧠 Retrieval-Augmented Generation (RAG) with Llama2 using LlamaIndex
+# 🧠 Retrieval-Augmented Generation (RAG) with Llama 2 using LlamaIndex
 
-This project demonstrates a simple end-to-end pipeline for building a Retrieval-Augmented Generation (RAG) system using **LlamaIndex** and **Meta's Llama 2** model via Hugging Face. It allows you to load documents, index them, and generate responses to natural language queries using contextual information from your documents.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/downloads/)
+[![Made with LlamaIndex](https://img.shields.io/badge/LlamaIndex-Powered-red)](https://www.llamaindex.ai/)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Models-orange)](https://huggingface.co/models)
+
+This project provides a straightforward, end-to-end pipeline for building a **Retrieval-Augmented Generation (RAG)** system. It leverages **LlamaIndex** for efficient data indexing and retrieval, combined with **Meta's Llama 2** large language model (LLM) accessed through Hugging Face. The goal is to enable you to easily load your own documents, create a knowledge base, and generate contextually relevant responses to natural language queries.
 
 ---
 
@@ -87,12 +92,12 @@ print(response)
 ```
 
 ✅ To-Do & Improvements
--Add persistent index storage using storage_context
--Try other embedding models (e.g., sentence-transformers)
--Deploy as a REST API using FastAPI
--Streamlit or Gradio UI for public interaction
+- Add persistent index storage using storage_context
+- Try other embedding models (e.g., sentence-transformers)
+- Deploy as a REST API using FastAPI
+- Streamlit or Gradio UI for public interaction
 
 📚 References
--LlamaIndex Documentation
--Llama 2 Models on Hugging Face
--RAG Architecture Overview
+- LlamaIndex Documentation
+- Llama 2 Models on Hugging Face
+- RAG Architecture Overview
