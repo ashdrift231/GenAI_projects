@@ -21,18 +21,14 @@ This project provides a straightforward, end-to-end pipeline for building a **Re
 
 ## 📁 Project Structure
 
-`RAG_with_Llama2_using_llamaIndex/
+```
+RAG_with_Llama2_using_llamaIndex/
 ├── data/ # Folder containing source documents
 ├── RAG_with_Llama2.ipynb # Main notebook for running the pipeline
 ├── rag.py # Optional script for CLI usage (if implemented)
 ├── requirements.txt # Python dependencies
-└── README.md # Project documentation (you’re here!)`
-
-yaml
-Copy
-Edit
-
----
+└── README.md # Project documentation (you’re here!)
+```
 
 ## 📦 Installation
 
@@ -50,9 +46,19 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
 
-3. Install dependencies
+3.  **Install dependencies:**
+    This project uses `torch` which can be large. Ensure you have a stable internet connection.
 
-🔒 Note: You’ll need access to Meta’s Llama 2 weights via Hugging Face. Make sure you’re authenticated.
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+    **🔐 Important Note on Llama 2 Access:**
+    You will need to have access to Meta's Llama 2 weights via Hugging Face. Please ensure you have:
+    * A Hugging Face account.
+    * Requested and been granted access to the `Llama-2-7b-chat-hf` model on Hugging Face.
+    * Logged in to Hugging Face locally using `huggingface-cli login` or by providing your Hugging Face token programmatically in the notebook/script.
+
 
 ## 🛠️ Usage Instructions
 Add .txt or .md files to the data/ folder.
