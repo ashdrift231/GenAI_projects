@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository demonstrates efficient fine‑tuning of **Meta’s LLaMA 2** models using **LoRA** (Low‑Rank Adaptation) and **QLoRA** (Quantized LoRA) to adapt large language models using significantly less memory and compute. It’s ideal for tune‑ups on custom datasets or domain‑specific tasks, even on a single 48 GB GPU.
+This repository demonstrates efficient fine‑tuning of **Meta’s LLaMA 2** models using **LoRA** (Low‑Rank Adaptation) and **QLoRA** (Quantized LoRA) to adapt large language models using significantly less memory and compute. It’s ideal for tune‑ups on custom datasets or domain‑specific tasks, even on a single GPU.
 
 ---
 
